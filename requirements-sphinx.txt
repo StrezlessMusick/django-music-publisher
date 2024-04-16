@@ -11,3 +11,4 @@ psycopg2-binary==2.9.3
 sphinxcontrib-mermaid==0.7.1
 waitress==2.1.2
 whitenoise==6.2.0
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
