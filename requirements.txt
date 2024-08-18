@@ -1,12 +1,14 @@
-Django>=3.2.14,<4.0
+Django>=4.2.15
 boto3==1.24.36
 dj_database_url==0.5.0
 django-cleanup==6.0.0
-djangorestframework==3.14.0
+djangorestframework==3.15.2
 django-storages==1.13.1
 music-metadata-territories==22.6
 Markdown==3.4.1
-Pillow==9.2.0
+Pillow==10.3.0
 psycopg2-binary==2.9.3
 waitress==2.1.2
 whitenoise==6.2.0
+sqlparse>=0.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
